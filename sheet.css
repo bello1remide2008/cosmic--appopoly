@@ -26,6 +26,7 @@ body{
    background: url(IMG20240727160743.jpg) no-repeat;
    background-size: cover;
    background-position: center;
+    background-attachment:fixed;
     display: flex;
     align-items: center;
     padding: 0 10%;
@@ -73,8 +74,32 @@ body{
 .navbar a.active{
     color: aqua;
 }
+.sidebar{
+    list-style: none;
+    background: #22438c;
+}
 
-#main a{
+.sidebar li{
+    width:100%;
+}
+
+nav li:first-child{
+    margin-right:auto;
+}
+
+nav li{
+    height: 50px;
+}
+
+nav ul{
+    width:100% ;
+    list-style: none;
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.nav a{
     height: 100%;
     padding: 0 30px;
     text-decoration: none;
