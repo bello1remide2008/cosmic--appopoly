@@ -63,11 +63,25 @@
             </div>
           </footer>
         <style>
-        
+       html{
+            width: 100%;
+      
+          }
+          body{
+            background-color: whitesmoke;
+          }
+            
+          @media (max-width: 800px){
+            .skills-box .skills-content{
+              margin: 10px;
+            }
+          }
             .skills-box{
                 display: flex;
                 flex-wrap: wrap;
                 gap: 1.5rem;
+                border:2px solid rebeccapurple;
+                background-color:cornsilk 
             }
             .skills-box .skills-content{
                 flex: 1 1 20rem;
@@ -112,7 +126,7 @@
                   width: 100%;
                   text-align: center;
                 background-color: #FFBD59;
-                position: absolute;
+                position: relative;
                 color: #bac1c7;
                 padding: 39px 0 42px;
             }
