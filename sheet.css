@@ -320,10 +320,6 @@ animation-delay: 1s;
     animation-delay: 4s;
     pointer-events: none;
 }
-.home-imghover:hover{
-    background: #aa81f3;
-    opacity: .8;
-}
 
 .home-imghover::after{
     content: '';
